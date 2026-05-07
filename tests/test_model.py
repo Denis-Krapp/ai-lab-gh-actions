@@ -6,7 +6,7 @@ import joblib
 
 
 OUTPUT_DIR = Path(os.getenv("MODEL_OUTPUT_DIR", "assets"))
-MINIMUM_ACCURACY = float(os.getenv("MINIMUM_ACCURACY", "30.22"))
+MINIMUM_ACCURACY = float(os.getenv("MINIMUM_ACCURACY", "0.90"))
 
 
 def load_metrics():
